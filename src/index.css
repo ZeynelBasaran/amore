@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.cdnfonts.com/css/ambit?styles=100623,100622,100625,100617,100615');
 @import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
 
 @import "tailwindcss";
@@ -24,7 +24,7 @@
     /*Hero section bg rengi çok açık pembe*/
 
 
-
+    
 
     --text-xs: 13px;
     --text-sm: 15px;
@@ -34,7 +34,13 @@
     --font-euclid: 'Euclid Circular A', sans-serif;
 }
 
-body {
+body{
     font-size: 13px;
     font-family: 'Ambit', sans-serif;
+    margin: auto;
+  
+}
+.container{ 
+    max-width: 1440px ; /* Maksimum genişlik */
+    width: 100%; /* Ekran genişliği 1440px'den küçükse tam genişlikte olacak */
 }
