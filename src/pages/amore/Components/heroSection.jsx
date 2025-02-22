@@ -7,7 +7,7 @@ import Image5 from "../../../../public/Image5.jpeg";
 const HeroSection = () => {
   return (
   
-      <header className="container text-white bg-background-primary h-[960px] flex flex-col items-center p-14">
+      <header className="container text-white bg-background-primary h-[960px] flex flex-col items-center pt-10 p-x-20">
         <nav className="bg-fourth w-[751px] h-[66px] rounded-3xl">
           <ul className="w-[751px] h-[66px] flex items-center justify-between text-sm px-4">
             <li className="color-secondary text-sm ">

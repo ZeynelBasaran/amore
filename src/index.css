@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/ambit?styles=100623,100622,100625,100617,100615');
 @import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwindcss";
 
@@ -14,10 +15,17 @@
     /*Kapalı Pembe Tonu */
     --color-fourth: rgba(65, 42, 120, 1);
     /*Mor */
+    --color-fifth: rgba(37, 34, 65, 1);
+    /*Mor */
+
     --color-black: rgba(24, 24, 28, 1);
     /*Black */
     --color-white: rgba(255, 255, 255, 1);
     /*White */
+
+    --color-border-1:rgba(13, 10, 44, 1);
+
+    --color-font-1:rgba(24, 24, 28, 1);
 
 
     --color-background-primary: rgba(230, 73, 151, 0.1);
@@ -29,9 +37,13 @@
     --text-xs: 13px;
     --text-sm: 15px;
     --text-3xl: 28px;
+    --text-4xl: 32px;
     --text-6xl: 56px;
 
     --font-euclid: 'Euclid Circular A', sans-serif;
+    --font-poppins: "Poppins", serif;
+
+    
 }
 
 body{
