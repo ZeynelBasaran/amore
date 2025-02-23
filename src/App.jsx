@@ -1,4 +1,5 @@
 import Amore from "./pages/amore/amore"
+import Anasayfa from "./pages/anasayfa/anasayfa"
 
 function App() {
 
@@ -7,8 +8,13 @@ function App() {
     <>
       <Amore />
      
+     
     </>
   )
 }
 
 export default App
+
+/*
+ <Anasayfa />
+*/

@@ -7,6 +7,7 @@
 
 
 @theme {
+    /*Amore Giriş CSS */
     --color-primary: rgba(221, 136, 207, 1);
     /*Açık Pembe*/
     --color-secondary: rgba(230, 73, 151, 1);
@@ -18,21 +19,29 @@
     --color-fifth: rgba(37, 34, 65, 1);
     /*Mor */
 
+    --color-bg-main:rgba(249, 249, 249);/*BG Gri renk*/
+    --color-bg-footer: rgb(84, 63, 133);
+    /*Mor Footer */
+
+    --color-custom-start: '#73467E';
+    --color-custom-end: '#652A78';
+
     --color-black: rgba(24, 24, 28, 1);
     /*Black */
     --color-white: rgba(255, 255, 255, 1);
     /*White */
 
-    --color-border-1:rgba(13, 10, 44, 1);
+    --color-border-1: rgba(13, 10, 44, 1);
+    --color-border-2: rgb(101, 82, 145);
 
-    --color-font-1:rgba(24, 24, 28, 1);
+    --color-font-1: rgba(24, 24, 28, 1);
 
 
     --color-background-primary: rgba(230, 73, 151, 0.1);
     /*Hero section bg rengi çok açık pembe*/
 
 
-    
+
 
     --text-xs: 13px;
     --text-sm: 15px;
@@ -43,16 +52,27 @@
     --font-euclid: 'Euclid Circular A', sans-serif;
     --font-poppins: "Poppins", serif;
 
-    
+
+
+
+    /*Amore Anasayfa*/
+
+    --color-svg:rgba(75, 22, 76, 1);
+
+
 }
 
-body{
+body {
     font-size: 13px;
     font-family: 'Ambit', sans-serif;
-    margin: auto;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.container{ 
-    max-width: 1440px ; /* Maksimum genişlik */
-    width: 100%; /* Ekran genişliği 1440px'den küçükse tam genişlikte olacak */
+
+.container {
+    max-width: 1440px;
+    width: 100%;
 }
+
+

@@ -23,7 +23,7 @@ const users = [
 
 const Info = () => {
     return (
-        <aside className='container p-20'>
+        <aside className='container p-20 bg-bg-main'>
             <section>
                 <p className='text-3xl text-center font-bold'>40.000&apos;den fazla <span className='text-secondary'>kullanıcı</span></p>
 

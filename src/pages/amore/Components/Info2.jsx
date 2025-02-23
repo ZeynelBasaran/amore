@@ -9,36 +9,36 @@ const Info2 = () => {
     return (
         <>
             <aside className="container">
-                <section className="h-[654px] back p-20">
+                <section className="h-[654px] back py-15 px-20">
                     <h3 className="text-5xl font-bold text-white mb-10 w-[658px] leading-[52px]">
                         Tamemen gerçek insanlarla sohbet et
                     </h3>
-                    <div className="max-w-[1280px] max-h-[400px] flex ">
+                    <div className="max-w-[1280px] max-h-[400px] flex justify-between gap-2">
                         <div>
                             <img
                                 src={Image15}
-                                className="rounded-3xl max-w-[416px] max-h-[400px]"
+                                className="rounded-3xl w-[416px] max-h-[400px]"
                                 alt=""
                             />
                         </div>
                         <div>
                             <img
                                 src={Image16}
-                                className="rounded-3xl max-w-[416px] max-h-[400px]"
+                                className="rounded-3xl w-[416px] max-h-[400px]"
                                 alt=""
                             />
                         </div>
                         <div>
                             <img
                                 src={Image17}
-                                className="rounded-3xl max-w-[416px] max-h-[400px]"
+                                className="rounded-3xl w-[416px] max-h-[400px]"
                                 alt=""
                             />
                         </div>
                     </div>
                 </section>
 
-                <section className="p-20 flex flex-col items-center justify-center">
+                <section className="p-20 flex flex-col items-center justify-center bg-bg-main">
                     <div className="font-normal flex-col flex items-center justify-center ">
                         <h5 className="text-3xl">Diğer Dating&apos;lerden Farklıyız</h5>
                         <p className="text-6xl font-semibold text-secondary mt-2">Çünkü</p>
