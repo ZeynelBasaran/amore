@@ -3,7 +3,7 @@ import Image21 from "../../../../public/Image21.png";
 const Footer = () => {
     return (
 
-        <footer className="bg-gradient-to-r from-[#462D7B] to-[#412A78] h-[258px] flex items-center justify-end p-20 rounded-2xl gap-x-4 relative container ">
+        <footer className="bg-gradient-to-r from-[#462D7B] to-[#412A78] h-[258px] flex items-center justify-end p-20 rounded-3xl gap-x-4 relative container ">
             <div className="absolute left-0 -bottom-0 w-[575px] h-[575px] overflow-hidden">
                 <img src={Image21} alt="" className="" />
             </div>

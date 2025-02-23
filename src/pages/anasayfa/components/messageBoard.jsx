@@ -123,17 +123,19 @@ const MessageBoard = ({ componentType }) => {
 
 
                         </div>
+
+
+                        <div />
                         {i !== personalList.length - 1 && (
                             <div
-                                className="border-b border-[rgba(0,0,0,1)] border-[0.5px] opacity-[15%]"
+                                className="mt-8 border-b border-[rgba(0,0,0,1)] border-[0.5px] opacity-[15%]"
 
                             ></div>
                         )}
 
-                        <div />
-
 
                     </div>
+
                 ))}
 
             </div>

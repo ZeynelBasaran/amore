@@ -17,21 +17,21 @@ const Info2 = () => {
                         <div>
                             <img
                                 src={Image15}
-                                className="rounded-3xl w-[416px] max-h-[400px]"
+                                className="rounded-3xl w-[416px] max-h-[400px] object-cover object-top"
                                 alt=""
                             />
                         </div>
                         <div>
                             <img
                                 src={Image16}
-                                className="rounded-3xl w-[416px] max-h-[400px]"
+                                className="rounded-3xl w-[416px] max-h-[400px] object-cover object-top"
                                 alt=""
                             />
                         </div>
                         <div>
                             <img
                                 src={Image17}
-                                className="rounded-3xl w-[416px] max-h-[400px]"
+                                className="rounded-3xl w-[416px] max-h-[400px] object-cover object-left"
                                 alt=""
                             />
                         </div>
@@ -40,8 +40,9 @@ const Info2 = () => {
 
                 <section className="p-20 flex flex-col items-center justify-center bg-bg-main">
                     <div className="font-normal flex-col flex items-center justify-center ">
-                        <h5 className="text-3xl">Diğer Dating&apos;lerden Farklıyız</h5>
-                        <p className="text-6xl font-semibold text-secondary mt-2">Çünkü</p>
+                        <h5 className="text-4xl">Diğer Dating&apos;lerden Farklıyız</h5>
+                        <p className="text-6xl font-bold
+ text-secondary mt-2">Çünkü</p>
                         <p className="font-poppins text-base w-[490px] leading-[24px] text-center mt-6">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
                             qui, sed numquam sint beatae ratione eum neque dolorem dolorum

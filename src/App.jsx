@@ -1,13 +1,15 @@
-import Amore from "./pages/amore/amore"
+
 import Anasayfa from "./pages/anasayfa/anasayfa"
+import Amore from "./pages/amore/amore"
+import Kesfet from "./pages/kesfet/kesfet"
 
 function App() {
 
 
   return (
     <>
-      <Amore />
      
+      <Kesfet />
      
     </>
   )
@@ -16,5 +18,5 @@ function App() {
 export default App
 
 /*
- <Anasayfa />
+ <Amore />
 */

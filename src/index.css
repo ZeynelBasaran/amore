@@ -19,6 +19,9 @@
     --color-fifth: rgba(37, 34, 65, 1);
     /*Mor */
 
+    --color-bg-buton:rgba(247, 247, 247,1);/*Deaktif BTN Gri renk*/
+    --color-text-buton:rgba(116, 116, 119, 1);
+
     --color-bg-main:rgba(249, 249, 249);/*BG Gri renk*/
     --color-bg-footer: rgb(84, 63, 133);
     /*Mor Footer */
@@ -33,6 +36,7 @@
 
     --color-border-1: rgba(13, 10, 44, 1);
     --color-border-2: rgb(101, 82, 145);
+    --color-border-2: rgba(235, 233, 225,1);
 
     --color-font-1: rgba(24, 24, 28, 1);
 
@@ -75,4 +79,27 @@ body {
     width: 100%;
 }
 
+/*İnput range*/
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: rgba(230, 73, 151, 1); /* Track (arka çizgi) rengi */
+    border-radius: 5px;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(235, 233, 225, 1); /* Kaydırıcı düğmesi rengi */
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: rgba(235, 233, 225, 1); /* Kaydırıcı düğmesi rengi */
+    border-radius: 50%;
+    cursor: pointer;
+}
 

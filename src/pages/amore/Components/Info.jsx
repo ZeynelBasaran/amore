@@ -52,9 +52,9 @@ const Info = () => {
                 <div className="flex justify-center ml-40  relative">
                     <div className="absolute  bottom-11 -left-7 ">
                         <div className="relative">
-                            <p className="grid place-items-center text-xs bg-fifth text-white absolute w-[65px] h-[30px] -top-5 left-13 rounded-lg border-3 border-border-1">İstanbul</p>
+                            <p className="grid place-items-center text-xs bg-fifth text-white absolute w-[66px] h-[31px] -top-5 left-13 rounded-lg border-3  border-border-1">İstanbul</p>
 
-                            <img src={Image10} alt="" className="w-[168px] h-[220px] rounded-2xl" />
+                            <img src={Image10} alt="" className="w-[168px] h-[220px] rounded-3xl" />
 
                             <div className="absolute top-20 left-20">
                                 <img src={Image13} alt="" className="w-[40px] h-[40px] rounded-full object-cover" />
@@ -73,8 +73,8 @@ const Info = () => {
 
                     <div className="absolute top-13 -right-3 rounded-full">
 
-                        <img src={Image12} alt="" className="w-[160px] h-[217px] rounded-lg" />
-                        <p className="grid place-items-center bg-fifth text-white h-[40px] absolute w-[160px] bottom-0 rounded-bl-lg rounded-br-lg">Kahve içiyorum</p>
+                        <img src={Image12} alt="" className="w-[160px] h-[217px] rounded-3xl" />
+                        <p className="grid place-items-center bg-fifth text-white h-[40px] absolute w-[160px] bottom-0 rounded-bl-3xl rounded-br-3xl">Kahve içiyorum</p>
 
                     </div>
 
