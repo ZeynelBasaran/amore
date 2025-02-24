@@ -48,7 +48,7 @@
 
 
 
-
+    --text-ss: 10px;
     --text-xs: 13px;
     --text-sm: 15px;
     --text-3xl: 28px;
@@ -68,6 +68,10 @@
     /*Mesajlar*/
     --color-bg-whatapps: rgba(48, 207, 108, 0.06);
     --color-bg-chat: rgba(221, 136, 207, 0.06);
+
+    /*Premium sayfası*/
+    --color-basitplan: rgba(0, 0, 0, 0.4);
+    /*Black */
 
 }
 
@@ -142,3 +146,11 @@ input[type="range"]::-moz-range-thumb {
 .custom-bottom-border-chat{
     border-bottom: 0.5px solid rgba(0, 0, 0, 1); /* 0.5px kalınlığında siyah border */
 }
+
+/*
+.bg-efekt-1{}
+.bg-efekt-2{
+}
+.bg-efekt-3{}
+
+*/
