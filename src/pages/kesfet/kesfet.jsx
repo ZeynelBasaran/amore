@@ -1,113 +1,15 @@
 import Navbar from "../navbar/navbar";
-import { navbarInfo } from "../../../public/kesfetdata";
-import Image58 from "../../../public/kesfet/Image58.png"
+import Filter from "./components/filter";
+import Personals from "./components/personals";
 
 const Kesfet = () => {
     return (
-        <main className="container flex">
+        <main className="container flex gap-5 p-12 bg-bg-main">
+
             <Navbar />
-            <aside className="w-[988px] h-[792px] flex flex-wrap">
-                {navbarInfo.map((item) => (
-                    <article
-                        key={`${item.name}i`}
-                        className="w-[234px] h-[387px] relative"
-                    >
-                        <figure>
-                            <img src={item.img} alt={item.name} />
-                        </figure>
-                        <div className="absolute bottom-0 text-white">
-                            <div className="flex relative">
-                                <span className="inline-block w-2 h-2 rounded-full bg-[rgba(28,231,97,1)] absolute"></span>
-                                <h5 className="text-2xl font-bold">
-                                    {item.name}, {item.age}
-                                </h5>
-                            </div>
-
-                            <p
-                                className="font-semibold text-lg
-"
-                            >
-                                {item.city}
-                                <span></span>
-                                {item.distance} km
-                            </p>
-                            <button
-                                className="text-secondary bg-white font-semibold text-sm flex justify-center items-center
-"
-                            >
-                                Mesaj Gönder
-                            </button>
-                        </div>
-                    </article>
-                ))}
-            </aside>
-
-            <aside className="w-[264px] h-[786px] bg-white flex flex-col justify-between">
-                <section>
-
-                    <div className="flex items-center">
-                        <div className="w-[60px] h-[24px] flex">
-                            <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11.3215 23.938C17.5484 23.938 22.5963 18.8901 22.5963 12.6632C22.5963 6.43623 17.5484 1.38831 11.3215 1.38831C5.09455 1.38831 0.0466309 6.43623 0.0466309 12.6632C0.0466309 18.8901 5.09455 23.938 11.3215 23.938Z" fill="#E45A5A" />
-                                <path d="M11.3215 22.6116C17.5484 22.6116 22.5963 17.5637 22.5963 11.3367C22.5963 5.10981 17.5484 0.0618896 11.3215 0.0618896C5.09455 0.0618896 0.0466309 5.10981 0.0466309 11.3367C0.0466309 17.5637 5.09455 22.6116 11.3215 22.6116Z" fill="#FFA5A6" />
-                                <path d="M11.3215 21.2852C16.4496 21.2852 20.6067 17.1281 20.6067 12C20.6067 6.87196 16.4496 2.71484 11.3215 2.71484C6.19349 2.71484 2.03638 6.87196 2.03638 12C2.03638 17.1281 6.19349 21.2852 11.3215 21.2852Z" fill="#FFD7D7" />
-                                <path d="M11.3215 20.6219C16.4496 20.6219 20.6067 16.4647 20.6067 11.3367C20.6067 6.20863 16.4496 2.05151 11.3215 2.05151C6.19349 2.05151 2.03638 6.20863 2.03638 11.3367C2.03638 16.4647 6.19349 20.6219 11.3215 20.6219Z" fill="#F87070" />
-                                <path d="M8.71696 6.79943C7.6738 7.07879 6.86363 7.86852 6.53003 8.94298C6.31293 9.64139 6.40824 10.5708 6.76832 11.3068C6.8954 11.5647 11.1898 15.9539 11.3169 15.9539C11.4016 15.9539 14.457 12.854 15.3466 11.8655C15.8549 11.3014 16.035 10.9737 16.1568 10.3828C16.2521 9.92075 16.2521 9.63064 16.1568 9.17399C16.0456 8.62602 15.7967 8.15325 15.4101 7.73421C14.8012 7.07879 14.1869 6.77794 13.3503 6.72959C12.7519 6.69736 12.3071 6.79406 11.7405 7.08953L11.3275 7.30443L10.8827 7.07342C10.6391 6.94985 10.3108 6.81555 10.1573 6.77794C9.7813 6.69198 9.08233 6.70273 8.71696 6.79943ZM11.6082 9.39426C11.4493 10.4687 11.4069 10.4204 12.3971 10.4204H13.112L13.2179 10.5923C13.2762 10.689 13.3238 10.8072 13.3238 10.8609C13.3238 10.9093 13.1755 11.1241 13.0008 11.3444C12.3971 12.075 10.9674 13.6975 10.9304 13.6975C10.8721 13.6975 10.8721 13.676 11.0204 12.752C11.1792 11.7688 11.1739 11.7957 11.068 11.6882C11.0045 11.6184 10.8509 11.6023 10.3002 11.6023C9.63833 11.6023 9.60656 11.5969 9.48477 11.468C9.33121 11.3175 9.32062 11.194 9.44241 11.0113C9.54302 10.8609 10.8245 9.31905 11.3593 8.7066C11.7882 8.21772 11.7882 8.22309 11.6082 9.39426Z" fill="#FFA5A6" />
-                            </svg>
-
-                            <span className="text-sm font-semibold">240</span>
-                            
-
-
-                        </div>
-                        <div className="ml-2 flex items-center">
-                            <img src={Image58} alt="" className="w-[40px] h-[40px] rounded-2xl" />
-                            <span className="ml-2">Alihan Can</span>
-                            <svg className="ml-4" width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.5964 0.5L6.48028 5.09317C5.99417 5.63561 5.19872 5.63561 4.7126 5.09317L0.596436 0.5" stroke="#18181C" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </div>
-
-                    </div>
-
-                    <div className="w-[210px] h-[41px] my-6">
-                        <div className="font-normal text-xs flex justify-between">
-                            <p>Mesafe</p>
-                            <p>100 km</p>
-                        </div>
-
-                        <input type="range" value={30} className="w-full text-secondary bg-secondary" />
-                    </div>
-
-
-                    <div className="w-[210px] h-[41px]">
-                        <div className="font-normal text-xs flex justify-between">
-                            <p>Yaş</p>
-                            <p>18-90</p>
-                        </div>
-                        <input type="range" value={18} min={18} max={90} className="w-full" />
-                    </div>
-
-                    <div className="my-6">
-                        <p className="font-normal text-xs mb-4">Cinsiyet</p>
-                        <div className="w-[216px] h-[38px] flex gap-x-2">
-                            <button className="w-[64px] h-[38px] bg-secondary text-white rounded-lg font-normal text-xs">Kadın</button>
-                            <button className="w-[64px] h-[38px] bg-bg-buton text-text-buton rounded-lg font-normal text-xs border border-color-2">Erkek</button>
-                            <button className="w-[64px] h-[38px] bg-bg-buton text-text-buton rounded-lg font-normal text-xs border border-color-2">Tümü</button>
-                        </div>
-                    </div>
-                    <div>
-                        <p className="font-normal text-xs mb-4">Kullanıcıların Durumu</p>
-                        <div className="w-[162px] h-[118px] flex flex-wrap">
-                            <button className="w-[68px] h-[38px] bg-secondary text-white rounded-lg font-normal text-xs">Online</button>
-                            <button className="w-[68px] h-[38px] bg-bg-buton text-text-buton rounded-lg font-normal text-xs ml-2 border border-color-2">Offline</button>
-                            <button className="w-[140px] h-[38px] bg-bg-buton text-text-buton rounded-lg font-normal text-xs border border-color-2">Yakın zamanda aktif</button>
-                        </div>
-                    </div>
-
-                </section>
-                <button className="w-[232px] h-[53px] bg-secondary text-white rounded-2xl text-sm font-semibold">Filtreyi Uygula</button>
-            </aside>
+            <Personals/>
+            <Filter/>
+          
         </main>
     );
 };

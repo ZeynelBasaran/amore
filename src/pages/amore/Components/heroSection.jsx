@@ -3,6 +3,7 @@ import Image2 from "../../../../public/Image2.png";
 import Image8 from "../../../../public/Image8.jpeg";
 import Image3 from "../../../../public/Image3.jpeg";
 import Image5 from "../../../../public/Image5.jpeg";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = () => {
       <nav className="bg-fourth w-[751px] h-[66px] rounded-4xl">
         <ul className="w-[751px] h-[66px] flex items-center justify-between text-sm px-4">
           <li className="color-secondary text-sm ">
-            <a href="#" className="flex items-center">
+            <Link to="anasayfa" className="flex items-center">
               <svg
                 width="39"
                 height="37"
@@ -27,7 +28,7 @@ const HeroSection = () => {
               <span className="text-xl text-secondary ml-1 euclid font-semibold">
                 Amore
               </span>
-            </a>
+            </Link>
           </li>
           <li className="">
             <a href="#">Amore Hakkında</a>

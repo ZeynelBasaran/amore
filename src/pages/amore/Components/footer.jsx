@@ -5,7 +5,7 @@ const Footer = () => {
 
         <footer className="bg-gradient-to-r from-[#462D7B] to-[#412A78] h-[258px] flex items-center justify-end p-20 rounded-3xl gap-x-4 relative container ">
             <div className="absolute left-0 -bottom-0 w-[575px] h-[575px] overflow-hidden">
-                <img src={Image21} alt="" className="" />
+                <img src={Image21} alt="" className="object-cover object-bottom" />
             </div>
             <div className="w-[223px] h-[81px] flex flex-col justify-center items-center">
                 <p className="text-2xl text-white font-semibold">Uygulamamızı</p>

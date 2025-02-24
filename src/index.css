@@ -19,10 +19,12 @@
     --color-fifth: rgba(37, 34, 65, 1);
     /*Mor */
 
-    --color-bg-buton:rgba(247, 247, 247,1);/*Deaktif BTN Gri renk*/
-    --color-text-buton:rgba(116, 116, 119, 1);
+    --color-bg-buton: rgba(247, 247, 247, 1);
+    /*Deaktif BTN Gri renk*/
+    --color-text-buton: rgba(116, 116, 119, 1);
 
-    --color-bg-main:rgba(249, 249, 249);/*BG Gri renk*/
+    --color-bg-main: rgba(249, 249, 249);
+    /*BG Gri renk*/
     --color-bg-footer: rgb(84, 63, 133);
     /*Mor Footer */
 
@@ -36,7 +38,7 @@
 
     --color-border-1: rgba(13, 10, 44, 1);
     --color-border-2: rgb(101, 82, 145);
-    --color-border-2: rgba(235, 233, 225,1);
+    --color-border-2: rgba(235, 233, 225, 1);
 
     --color-font-1: rgba(24, 24, 28, 1);
 
@@ -61,8 +63,11 @@
 
     /*Amore Anasayfa*/
 
-    --color-svg:rgba(75, 22, 76, 1);
+    --color-svg: rgba(75, 22, 76, 1);
 
+    /*Mesajlar*/
+    --color-bg-whatapps: rgba(48, 207, 108, 0.06);
+    --color-bg-chat: rgba(221, 136, 207, 0.06);
 
 }
 
@@ -72,6 +77,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .container {
@@ -79,27 +86,59 @@ body {
     width: 100%;
 }
 
+
+
 /*İnput range*/
 input[type="range"] {
     -webkit-appearance: none;
     width: 100%;
     height: 6px;
-    background: rgba(230, 73, 151, 1); /* Track (arka çizgi) rengi */
+    background: rgba(230, 73, 151, 1);
+    /* Track (arka çizgi) rengi */
     border-radius: 5px;
 }
+
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 20px;
     height: 20px;
-    background: rgba(235, 233, 225, 1); /* Kaydırıcı düğmesi rengi */
-    border-radius: 50%;
-    cursor: pointer;
-}
-input[type="range"]::-moz-range-thumb {
-    width: 20px;
-    height: 20px;
-    background: rgba(235, 233, 225, 1); /* Kaydırıcı düğmesi rengi */
+    background: rgba(235, 233, 225, 1);
+    /* Kaydırıcı düğmesi rengi */
     border-radius: 50%;
     cursor: pointer;
 }
 
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: rgba(235, 233, 225, 1);
+    /* Kaydırıcı düğmesi rengi */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*Mesajlardaki border */
+.custom-top-border {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.custom-left-border {
+    position: relative;
+    /* Border'ı pozisyonlamak için */
+}
+
+.custom-left-border::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 60px;
+    background-color: rgba(230, 73, 151, 1);
+}
+
+/*ChatPage Border*/
+.custom-bottom-border-chat{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 1); /* 0.5px kalınlığında siyah border */
+}

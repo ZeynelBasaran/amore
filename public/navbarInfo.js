@@ -5,7 +5,7 @@ export const navbarInfo = [
     image: `<svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M15.0196 10.0022C10.9743 11.0855 7.83258 14.148 6.53891 18.3147C5.697 21.023 6.06662 24.6272 7.46296 27.4814C7.95579 28.4814 24.6092 45.5022 25.102 45.5022C25.4306 45.5022 37.2789 33.4814 40.7287 29.648C42.7 27.4605 43.3982 26.1897 43.8705 23.898C44.2401 22.1064 44.2401 20.9814 43.8705 19.2105C43.4392 17.0855 42.4741 15.2522 40.9751 13.6272C38.6137 11.0855 36.2317 9.91886 32.9872 9.73136C30.6668 9.60636 28.942 9.98136 26.7448 11.1272L25.1431 11.9605L23.4182 11.0647C22.4736 10.5855 21.2005 10.0647 20.605 9.91886C19.147 9.58553 16.4365 9.62719 15.0196 10.0022ZM26.2314 20.0647C25.6154 24.2314 25.4511 24.0439 29.291 24.0439H32.0632L32.4739 24.7105C32.6997 25.0855 32.8846 25.5439 32.8846 25.7522C32.8846 25.9397 32.3096 26.773 31.632 27.6272C29.291 30.4605 23.7467 36.7522 23.603 36.7522C23.3771 36.7522 23.3771 36.6689 23.9521 33.0855C24.5681 29.273 24.5476 29.3772 24.1369 28.9605C23.8905 28.6897 23.295 28.6272 21.1594 28.6272C18.5926 28.6272 18.4694 28.6064 17.9971 28.1064C17.4016 27.523 17.3605 27.0439 17.8328 26.3355C18.223 25.7522 23.1923 19.773 25.2663 17.398C26.9296 15.5022 26.9296 15.523 26.2314 20.0647Z" fill="#E64997"/>
 </svg>`,
-    links: "",
+    links: "/",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ export const navbarInfo = [
 <path d="M20.4578 6.68604V9.43181" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M11.2302 24.8521V20.5137C11.2302 19.5797 11.2302 19.1126 11.4014 18.7525C11.5709 18.396 11.8545 18.1081 12.2059 17.9363C12.561 17.7626 13.0213 17.7626 13.9419 17.7626C14.8626 17.7626 15.3229 17.7626 15.6779 17.9363C16.0293 18.1081 16.313 18.396 16.4823 18.7525C16.6536 19.1126 16.6536 19.5797 16.6536 20.5137V24.8521" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`,
-    links: "",
+    links: "/anasayfa",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const navbarInfo = [
 </svg>
 
 `,
-    links: "/",
+    links: "",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const navbarInfo = [
 </svg>
 
 `,
-    links: "/",
+    links: "/kesfet",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const navbarInfo = [
 </svg>
 
 `,
-    links: "/",
+    links: "",
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ export const navbarInfo = [
 </svg>
 
 `,
-    links: "/",
+    links: "/mesajlar",
   },
   {
     id: 7,
@@ -77,11 +77,11 @@ export const navbarInfo = [
 </svg>
 
 `,
-    links: "/",
+    links: "",
   },
   {
     id: 8,
-    name: "Para",
+    name: "Abonelik",
     image: `<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14.0771 24.343L10.4812 12.8771" stroke="#4B164C" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18.1346 5.4989L13.6592 12.8773" stroke="#4B164C" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -90,17 +90,17 @@ export const navbarInfo = [
 </svg>
 
 `,
-    links: "/",
+    links: "/abonelik",
   },
   {
     id: 9,
-    name: "Para",
+    name: "odeme",
     image: `<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7613 26.191C9.51603 26.191 5.89062 25.5208 5.89062 22.8366C5.89062 20.1524 9.49303 17.6744 13.7613 17.6744C18.0067 17.6744 21.6321 20.1283 21.6321 22.8126C21.6321 25.4957 18.0297 26.191 13.7613 26.191Z" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7528 13.9548C16.5388 13.9548 18.7968 11.6639 18.7968 8.83737C18.7968 6.01085 16.5388 3.71887 13.7528 3.71887C10.9669 3.71887 8.70779 6.01085 8.70779 8.83737C8.69839 11.6543 10.9407 13.9453 13.7172 13.9548C13.7298 13.9548 13.7413 13.9548 13.7528 13.9548Z" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
 `,
-    links: "/",
+    links: "/odeme",
   },
 ];

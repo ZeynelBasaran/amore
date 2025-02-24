@@ -1,52 +1,10 @@
-import Image32 from "../../../../public/AnasayfaLogo/Image32.jpeg";
-import Image33 from "../../../../public/AnasayfaLogo/Image33.jpeg";
-import Image34 from "../../../../public/AnasayfaLogo/Image34.jpeg";
-import Image35 from "../../../../public/AnasayfaLogo/Image35.jpeg";
-
-const personalList = [
-    {
-        name: "Candan",
-        surname: "Akay",
-        message: "Çok güzel değil mi?",
-        image: Image32,
-        fullname: function () {
-            return `${this.name} ${this.surname}`;
-        },
-    },
-    {
-        name: "Selin",
-        surname: "Genç",
-        message: "Bir sonraki ne olacak, soru?",
-        image: Image33,
-        fullname: function () {
-            return `${this.name} ${this.surname}`;
-        },
-    },
-    {
-        name: "Ahu",
-        surname: "Tuğ",
-        message: "Gerçekten harikasın",
-        image: Image34,
-        fullname: function () {
-            return `${this.name} ${this.surname}`;
-        },
-    },
-    {
-        name: "Ahde",
-        surname: "Vefa",
-        message: "Özledim seni canım",
-        image: Image35,
-        fullname: function () {
-            return `${this.name} ${this.surname}`;
-        },
-    },
-];
+import { personalList } from "../../../../public/AnasayfaLogo/mesajlar/personel";
 
 
 
 const MessageBoard = ({ componentType }) => {
     return (
-        <section className="bg-white w-[403px] h-[588px] p-6 rounded-2xl">
+        <div className="bg-white w-[403px] h-[588px] p-6 rounded-2xl">
             <div className="flex justify-between text-lg font-semibold mb-10">
                 <p className="">{componentType}</p>
                 <p className="text-secondary flex justify-center items-center">
@@ -71,7 +29,7 @@ const MessageBoard = ({ componentType }) => {
 
             <div className="w-[322px] h-[436px] flex flex-col justify-between">
 
-                {personalList.map((item, i) => (
+                {personalList.slice(0,4).map((item, i) => (
                     <div key={`${item.name}${componentType}`}>
                         <div className="flex ">
                             <div className=" w-[64px]">
@@ -85,7 +43,7 @@ const MessageBoard = ({ componentType }) => {
                                 <p className="text-lg font-semibold">{item.fullname()}</p>
                                 {componentType === "Hızlı Mesajlar" ? (
                                     <span
-                                        className="text-sm font-light
+                                        className="text-sm font-light  text-text-buton
 "
                                     >
                                         {item.message}
@@ -126,7 +84,7 @@ const MessageBoard = ({ componentType }) => {
 
 
                         <div />
-                        {i !== personalList.length - 1 && (
+                        {i !== personalList.length - 2 && (
                             <div
                                 className="mt-8 border-b border-[rgba(0,0,0,1)] border-[0.5px] opacity-[15%]"
 
@@ -139,7 +97,7 @@ const MessageBoard = ({ componentType }) => {
                 ))}
 
             </div>
-        </section>
+        </div>
     );
 };
 
