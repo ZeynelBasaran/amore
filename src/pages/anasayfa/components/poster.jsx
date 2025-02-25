@@ -77,7 +77,7 @@ const Poster = () => {
                 <img src={Image30} className="w-[547px] rounded-3xl object-cover object-top" />
             </div>
 
-            <div className="-bottom-10 absolute left-1/2 transform -translate-x-1/2">
+            <div className="-bottom-12 absolute left-1/2 transform -translate-x-1/2">
                 <div className="flex flex-col items-center">
                     <div className="w-[233px] h-[72px] rounded-4xl bg-white flex items-center justify-center mb-3">
                         <svg width="210" height="57" viewBox="0 0 210 57" fill="none" xmlns="http://www.w3.org/2000/svg" className="">

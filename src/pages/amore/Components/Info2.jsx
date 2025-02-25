@@ -38,7 +38,7 @@ const Info2 = () => {
                     </div>
                 </section>
 
-                <section className="p-20 flex flex-col items-center justify-center bg-bg-main">
+                <section className="px-30 py-40 flex flex-col items-center justify-center bg-bg-main">
                     <div className="font-normal flex-col flex items-center justify-center ">
                         <h5 className="text-4xl">Diğer Dating&apos;lerden Farklıyız</h5>
                         <p className="text-6xl font-bold

@@ -23,9 +23,9 @@ const users = [
 
 const Info = () => {
     return (
-        <aside className='container p-20 bg-bg-main'>
+        <aside className='container px-20 py-28 bg-bg-main'>
             <section>
-                <p className='text-3xl text-center font-bold'>40.000&apos;den fazla <span className='text-secondary'>kullanıcı</span></p>
+                <p className='text-3xl text-center font-bold mb-28'>40.000&apos;den fazla <span className='text-secondary'>kullanıcı</span></p>
 
                 <ul className="flex justify-between mt-10">
                     {users.map((user, i) => (
