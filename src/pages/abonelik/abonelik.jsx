@@ -15,7 +15,7 @@ const Abonelik = () => {
             Hoş Geldin
           </p>
         </section>
-        
+
         <PremiumCard />
 
         <div className="text-sm text-center font-semibold text-basitplan mt-12

@@ -9,7 +9,7 @@ export const navbarInfo = [
   },
   {
     id: 2,
-    name: "Anasayfa",
+    name: "anasayfa",
     image: `<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5.31226 11.1567V21.2776C5.31226 23.2516 6.88983 24.8521 8.8355 24.8521H19.0461C20.9918 24.8521 22.5694 23.2516 22.5694 21.2776V11.1567" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M24.2893 12.5343L15.635 5.58386C14.6415 4.78699 13.2383 4.78699 12.2448 5.58386L3.59058 12.5343" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -20,7 +20,7 @@ export const navbarInfo = [
   },
   {
     id: 3,
-    name: "Bildirimler",
+    name: "bildirimler",
     image: `<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9356 3.85205C8.8365 3.85205 6.62098 8.5365 6.62098 11.6332C6.62098 13.9476 6.95173 13.2665 5.68899 16.0898C4.147 20.1132 10.3478 21.7576 13.9356 21.7576C17.5223 21.7576 23.7232 20.1132 22.1823 16.0898C20.9195 13.2665 21.2502 13.9476 21.2502 11.6332C21.2502 8.5365 19.0337 3.85205 13.9356 3.85205Z" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16.5917 24.8499C15.1034 26.5365 12.7817 26.5566 11.2791 24.8499" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -31,7 +31,7 @@ export const navbarInfo = [
   },
   {
     id: 4,
-    name: "Keşfet",
+    name: "kesfet",
     image: `<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65063 18.3627L11.4821 12.4253L17.3344 10.5671L15.5029 16.5046L9.65063 18.3627Z" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M13.4926 25.6778C19.5964 25.6778 24.5445 20.6577 24.5445 14.465C24.5445 8.27234 19.5964 3.2522 13.4926 3.2522C7.38879 3.2522 2.44067 8.27234 2.44067 14.465C2.44067 20.6577 7.38879 25.6778 13.4926 25.6778Z" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -42,7 +42,7 @@ export const navbarInfo = [
   },
   {
     id: 5,
-    name: "Sevgi",
+    name: "sevgi",
     image: `<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M20.3311 16.1228C20.3288 13.1896 18.3842 10.4562 15.3544 10.4551C14.57 10.4562 13.7991 10.6492 13.1043 11.0147C12.4084 11.3814 11.8769 12.1226 11.4238 12.7719C10.682 12.5176 9.82387 12.2316 9.04963 12.3451C8.27537 12.4586 7.53916 12.7561 6.89918 13.2135C4.43994 15.015 4.4198 18.3795 6.10367 20.7644C8.73746 24.5592 15.4316 25.4185 15.4316 25.4185C15.4316 25.4185 20.3065 20.8393 20.3311 16.1228Z" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M11.9404 12.0687C11.6405 11.2412 11.4481 10.3637 11.4358 9.48622C11.4358 6.86631 13.1767 4.4303 15.8788 4.41895C16.587 4.4303 17.2717 4.58922 17.8961 4.91841C18.5204 5.24646 18.9881 5.90485 19.3964 6.48945C20.0689 6.25788 20.8252 6.00247 21.51 6.11144C22.2059 6.20907 22.8671 6.46447 23.4434 6.8788C25.6285 8.49865 25.6519 11.4966 24.1516 13.6284C23.2386 14.9553 21.7617 15.8691 20.3218 16.5026" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -53,7 +53,7 @@ export const navbarInfo = [
   },
   {
     id: 6,
-    name: "Mesajlar",
+    name: "mesajlar",
     image: `<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0715 23.167C18.5571 26.7329 13.3532 27.5033 9.09463 25.5052C8.46595 25.2484 7.95053 25.0409 7.46053 25.0409C6.0957 25.0491 4.39689 26.3917 3.51397 25.497C2.63105 24.6011 3.95543 22.8762 3.95543 21.4832C3.95543 20.986 3.75897 20.4724 3.50588 19.8333C1.53549 15.5134 2.29591 10.232 5.81026 6.66727C10.2965 2.11403 17.5852 2.11403 22.0715 6.6661C26.5658 11.2264 26.5577 18.615 22.0715 23.167Z" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18.47 15.4006H18.4803" stroke="#4B164C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -81,7 +81,7 @@ export const navbarInfo = [
   },
   {
     id: 8,
-    name: "Abonelik",
+    name: "abonelik",
     image: `<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14.0771 24.343L10.4812 12.8771" stroke="#4B164C" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18.1346 5.4989L13.6592 12.8773" stroke="#4B164C" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>

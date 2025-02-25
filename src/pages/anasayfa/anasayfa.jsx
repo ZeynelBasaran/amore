@@ -5,7 +5,12 @@ import PremiumCard from "./components/premiumCard";
 import Navbar from "../navbar/navbar";
 
 
+
 const Anasayfa = () => {
+  
+
+
+
   return (
 
 

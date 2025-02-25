@@ -3,27 +3,30 @@ import Image30 from "../../../../public/AnasayfaLogo/Image30.jpeg";
 const Poster = () => {
     return (
         <section className="relative">
+           <div>
+            <span className="absolute -top-10 text-xl font-bold bg-bg-main">Aslıhan,24</span>
+           </div>
             <div className="rounded-3xl">
                 <img src={Image30} className="max-w-[547px] max-h-[589px] w-full rounded-3xl object-cover object-top" />
             </div>
 
 
             <div className="w-[547px] h-[330px] p-5 bg-white rounded-3xl my-5">
-                <p>Ben Kimim?</p>
-                <p>Ben 19 yaşında İzmir&apos;de yaşayan bir genç kızım.Yeni insanlarla tanışmak,görüşmek ve ilişkiler kurmak istiyorum.Bu yüzden burdayım.</p>
+                <p className="mb-4 font-semibold text-lg">Ben Kimim?</p>
+                <p className="font-semibold text-sm text-text-buton">Ben 19 yaşında İzmir&apos;de yaşayan bir genç kızım.Yeni insanlarla tanışmak,görüşmek ve ilişkiler kurmak istiyorum.Bu yüzden burdayım.</p>
                 <div
                     className="mt-8 border-b border-[rgba(0,0,0,1)] border-[0.5px] opacity-[15%]"
 
                 ></div>
-                <div className="flex flex-wrap gap-4 mt-5">
-                    <span className="w-[100px] h-[57px] flex items-center justify-center rounded-2xl border border-border-2 ">
+                <div className="flex flex-wrap gap-4 mt-5 text-base font-normal">
+                    <span className="w-[100px] h-[57px] flex items-center justify-center rounded-2xl border border-border-2 text-base font-normal">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
                             <path d="M10.3632 25.4794V19.658M7.98043 23.2652H12.7187M6.02238 17.8877C3.66197 15.5273 3.66197 11.7001 6.02238 9.33971C8.38279 6.97929 12.21 6.97929 14.5703 9.33971C16.9308 11.7001 16.9308 15.5273 14.5703 17.8877C12.21 20.2493 8.38279 20.2493 6.02238 17.8877Z" stroke="#18181C" strokeWidth="1.80316" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M22.2843 5.23242H25.8903M25.8903 5.23242V8.83854M25.8903 5.23242L21.8045 9.32044M11.4647 13.6139C11.4647 10.2755 14.1714 7.56893 17.5096 7.56893C20.8479 7.56893 23.5533 10.2755 23.5533 13.6139C23.5533 16.9521 20.8479 19.6576 17.5096 19.6576C14.1714 19.6576 11.4647 16.9521 11.4647 13.6139Z" stroke="#18181C" strokeWidth="1.80316" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
 
                         Kadın</span>
-                    <span className="w-[135px] h-[57px] flex items-center justify-center rounded-2xl border border-border-2">
+                    <span className="w-[135px] h-[57px] flex items-center justify-center rounded-2xl border border-border-2 text-base font-normal">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.6819 23.8726H12.7837L14.7325 21.861L16.6819 23.8726Z" stroke="#18181C" strokeWidth="1.80316" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M14.4747 27.2151C13.0873 24.4899 15.6325 23.8729 15.6325 23.8729" stroke="#18181C" strokeWidth="1.80316" strokeLinecap="round" strokeLinejoin="round" />

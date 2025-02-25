@@ -3,7 +3,7 @@ import Image58 from "../../../../public/kesfet/Image58.png"
 const Person = () => {
   return (
     <div className="flex items-center mt-2">
-      <div className="w-[60px] h-[24px] flex ">
+      <div className="w-[60px] h-[24px] flex justify-center items-center">
         <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M11.3215 23.938C17.5484 23.938 22.5963 18.8901 22.5963 12.6632C22.5963 6.43623 17.5484 1.38831 11.3215 1.38831C5.09455 1.38831 0.0466309 6.43623 0.0466309 12.6632C0.0466309 18.8901 5.09455 23.938 11.3215 23.938Z" fill="#E45A5A" />
           <path d="M11.3215 22.6116C17.5484 22.6116 22.5963 17.5637 22.5963 11.3367C22.5963 5.10981 17.5484 0.0618896 11.3215 0.0618896C5.09455 0.0618896 0.0466309 5.10981 0.0466309 11.3367C0.0466309 17.5637 5.09455 22.6116 11.3215 22.6116Z" fill="#FFA5A6" />
@@ -13,7 +13,7 @@ const Person = () => {
         </svg>
 
 
-        <span className="text-sm font-semibold">240</span>
+        <span className="text-sm font-semibold ml-2">240</span>
       </div>
       
       <div className="ml-2 flex items-center">

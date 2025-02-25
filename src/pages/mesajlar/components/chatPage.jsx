@@ -12,7 +12,7 @@ const ChatPage = () => {
           </div>
           <div className="ml-2">
             <p className="font-semibold text-lg">Ahde Vefa</p>
-            <p className="font-light text-sm">Çevrimiçi</p>
+            <p className="font-light text-sm text-bg-cevrim">Çevrimiçi</p>
           </div>
         </div>
 
