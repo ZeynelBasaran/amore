@@ -56,13 +56,14 @@ const Info = () => {
 
                             <img src={Image10} alt="" className="w-[168px] h-[220px] rounded-3xl" />
 
-                            <div className="absolute top-20 left-20">
-                                <img src={Image13} alt="" className="w-[40px] h-[40px] rounded-full object-cover" />
+                            <div className="absolute top-20 left-20 z-10">
+                                <img src={Image13} alt="" className="w-[40px] h-[40px] rounded-full object-cover z-10" />
 
-                                <div className="absolute -bottom-2 left-1 z-0">
-                                    <div className="speech-bubble"></div>
-                                </div>
+                                
 
+                            </div>
+                            <div className="absolute top-27 left-21 z-0">
+                                    <div className="speech-bubble z-0"></div>
                             </div>
 
                         </div>

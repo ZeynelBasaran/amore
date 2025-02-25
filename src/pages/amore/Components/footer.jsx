@@ -5,13 +5,21 @@ const Footer = () => {
 
         <footer className="bg-gradient-to-r from-[#462D7B] to-[#412A78] h-[258px] flex items-center justify-end p-20 rounded-3xl gap-x-4 container relative">
 
-            <div className="absolute bottom-0 left-0 w-[405px] h-[364px] overflow-hidden">
+
+            
+            <div className="absolute bottom-0 left-10 w-[406px] h-[364px] overflow-hidden">
+                <div className="w-[700px] h-[504px] absolute overflow-hidden bottom-0">
                 <img
-                    className="absolute w-full h-full bottom-0 left-0 phone"
+                    className="absolute w-full h-full -left-36 -bottom-32"
                     src={Image21}
                     alt="phone"
                 />
+                </div>
+                
             </div>
+           
+           
+            
 
 
             <div className="w-[223px]  h-[81px] flex flex-col justify-center items-center">

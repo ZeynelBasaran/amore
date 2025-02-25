@@ -213,9 +213,3 @@ input[type="range"]::-moz-range-thumb {
     background-color: rgba(230, 73, 151, 1);
 }
 
-.phone {
-    object-fit: fill;
-    object-position: center;
-    
-    
-}
